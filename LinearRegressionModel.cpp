@@ -38,3 +38,9 @@ void LinearRegressionModel::printCoefficients() {
   Serial.print("  Intercept: ");
   Serial.println(_intercept);
 }
+
+// getFunction
+float LinearRegressionModel::getCoefVolume() { return _coefVolume; }
+float LinearRegressionModel::getCoefWaktu() { return _coefWaktu; }
+float LinearRegressionModel::getIntercept() { return _intercept; }
+float LinearRegressionModel::getLearningRate() { return _learningRate; }
